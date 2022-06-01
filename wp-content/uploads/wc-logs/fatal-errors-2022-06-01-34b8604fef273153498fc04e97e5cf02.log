@@ -1,0 +1,20 @@
+2022-06-01T04:59:17+00:00 CRITICAL Uncaught Error: Call to a member function get_month() on null in C:\xampp\htdocs\ecommerce\wp-includes\media.php:4393
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce\wp-content\plugins\th-all-in-one-woo-cart\inc\taiowc.php(127): wp_enqueue_media()
+#1 C:\xampp\htdocs\ecommerce\wp-includes\class-wp-hook.php(307): Taiowc->scripts('')
+#2 C:\xampp\htdocs\ecommerce\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\ecommerce\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\ecommerce\wp-includes\script-loader.php(2156): do_action('wp_enqueue_scri...')
+#5 C:\xampp\htdocs\ecommerce\wp-includes\class-wp-customize-manager.php(454): wp_enqueue_scripts()
+#6 C:\xampp\htdocs\ecommerce\wp-includes\class-wp-customize-manager.php(551): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#7 C:\xampp\htdocs\ecommerce\wp-includes\class-wp-hook.php(307): WP_Customize_Manager->setup_theme('')
+#8 C:\xampp\htdocs\ecommerce\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#9 C:\xampp\htdocs\ecommerce\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\ecommerce\wp-settings.php(530): do_action('setup_theme')
+#11 C:\xampp\htdocs\ecommerce\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\ecommerce\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\ecommerce\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\ecommerce\index.php(17): require('C:\\xampp\\htdocs...')
+#15 {main}
+  thrown in C:\xampp\htdocs\ecommerce\wp-includes\media.php on line 4393
+
